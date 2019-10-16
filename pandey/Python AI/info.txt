@@ -1,0 +1,17 @@
+30/9/19   
+-  minimax - negamaxmax implementation
+- negamax - tictactoe
+- flask webservices
+-flask server 
+
+
+IIS to make a pc work as window server
+
+apache server for linux
+
+
+XAMP / LAMP 
+
+
+
+# to create python server we use flask and django. if we want to run our code on webserver
