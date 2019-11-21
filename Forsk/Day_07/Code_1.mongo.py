@@ -8,11 +8,17 @@ Created on Wed Oct  9 02:29:02 2019
 import pymongo
 
 
-client = pymongo.MongoClient("mongodb+srv://ashwanidhankhar:<password>@cluster0-e0jms.mongodb.net/test?retryWrites=true&w=majority")
-db = client.test
+
+
+
+
+client = pymongo.MongoClient("mongodb://ashwanidhankhar:%40Ashwani@cluster1-shard-00-00-e0jms.mongodb.net:27017,cluster1-shard-00-01-e0jms.mongodb.net:27017,cluster1-shard-00-02-e0jms.mongodb.net:27017/test?ssl=true&replicaSet=Cluster1-shard-0&authSource=admin&retryWrites=true&w=majority")
+db = client.new_db
+
+
 
 def add_student(name,age,roll,branch):
-    unique_employee = db.students.find_one({"id":idd})
+    unique_employee = db.students.find_one({"roll":roll})
     if unique_employee:
         return "Student already exists"
     else:
@@ -32,8 +38,11 @@ def fetch_all_student():
         print (i)
         
         
-add_student(1,'Sylvester', 'Fernandes', 50000)
-add_student(2,'Yogendra', 'Singh', 70000)
-add_student(3,'Rohit', 'Mishra', 30000)
-add_student(4,'Kunal', 'Vaid', 30000)
-add_student(5,'Devendra', 'Shekhawat', 30000)
+add_student('Ashwani',19,5,'ML/AI')
+add_student('Ankit',19,3,'ML/AI')
+add_student('Lavish',18,6,'ML/AI')
+add_student('Vishal',19,7,'ML/AI')
+add_student('Lokesh',20,8,'ML/AI')
+
+
+fetch_all_student()
