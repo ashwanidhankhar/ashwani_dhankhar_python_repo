@@ -1,0 +1,6 @@
+Types of machine learning
+
+1) supervised ml--- x-input,y-output both are present which are termed as features and label
+2) unsupervised ml--- only x is present
+3)semi supervised learning--- combination of supervised and unsupervised learning ,,, some data is labelled and some is unlabelled
+4)reinforcement ml

@@ -1,0 +1,9 @@
+Machine Learning
+
+what is ml
+types of ml
+applications of ml
+basic types of data in ml
+training a model for supervised learning ---- bootstrap sampling , hold out method, k fold, cross validation method
+model representation - underfitting and over fitting
+evaluating performance of a model- confusion, tp , fp etc

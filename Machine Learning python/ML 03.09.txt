@@ -1,0 +1,59 @@
+selecting a model 
+
+1) supervised learning -- regression					1)Predective model
+									
+			  classification
+
+
+---- hangout method
+
+---- k-field
+
+---- bootstrap sampling
+
+
+--Model representation
+
+1) underfitting 
+2) overfitting
+
+
+model accuracy =  tp+tn/tp+fp+fn+tn
+
+recall = tp/tp+fn
+
+precission = tp/tp+fp
+
+f measure = 2*p*r/p+r     where p = precission and r = recall
+
+
+
+2) unsupervised learning -- clustring					2)Descriptive model
+			    association rule
+
+
+
+
+3) reinforcement learning
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
+Features extraction
+
+PCA - principal component analysis
+
+SVD
+
+LDA
+
