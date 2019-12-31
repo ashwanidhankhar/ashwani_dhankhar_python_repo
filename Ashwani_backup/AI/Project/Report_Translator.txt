@@ -1,0 +1,24 @@
+                                                     **Report Translator**
+
+
+Libraries Used for the project -
+
+ 
+ * Pandas        - In computer programming, pandas is a software library written for the Python programming language for
+ 	           data manipulation and analysis. In particular, it offers data structures and operations 
+		   for manipulating numerical tables and time series.
+ 		   It is free software released under the three-clause BSD license.
+
+
+ * Numpy        -   NumPy is a library for the Python programming language, adding support for large, multi-dimensional 
+		    arrays and matrices,along with a large collection of high-level mathematical functions to 
+		    operate on these arrays.
+		 		 
+
+ * Google Trans  -  Googletrans is a free and unlimited python library that implemented Google Translate API. 
+		    This uses the Google Translate Ajax API to make calls to such methods as detect and translate.
+				 
+
+ * Tk Inter     -  Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit,
+		   and is Python's de facto standard GUI. Tkinter is included with standard Linux,
+		   Microsoft Windows and Mac OS X installs of Python. The name Tkinter comes from Tk interface.
